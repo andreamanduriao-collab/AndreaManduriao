@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrea W. Manduriao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="player-body">
+
+    <div class="player-container">
+
+        <!-- Title bar -->
+        <div class="title-bar">
+            <div class="user-name">Deutschlandlied</div>
+
+            <div class="window-buttons">
+                <span class="btn-minimize">–</span>
+                <span class="btn-maximize">▢</span>
+                <span class="btn-close">✕</span>
+            </div>
+        </div>
+
+        <!-- Video -->
+        <video class="flag-video" id="flagVideo" src="assets/flag.mp4" autoplay loop muted></video>
+
+        <!-- Audio -->
+        <audio id="anthemAudio" src="assets/anthem.mp3"></audio>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button id="playPauseBtn">▶️</button>
+            <button id="skipBtn">⏩</button>
+            <button id="replayBtn">🔁</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

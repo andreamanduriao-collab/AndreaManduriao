@@ -1,0 +1,123 @@
+/* Background image */
+.player-body {
+    background: url('assets/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 50px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+/* Main window */
+.player-container {
+    width: 720px;
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    border-right-color: #7b7b7b;
+    border-bottom-color: #7b7b7b;
+    box-shadow: inset 1px 1px 0 #7b7b7b, inset -1px -1px 0 #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title bar */
+.title-bar {
+    width: 100%;
+    height: 32px;
+    background: #ff7da8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #ce5a80;
+}
+
+/* Title text */
+.user-name {
+    font-size: 1rem;
+}
+
+/* Window buttons layout */
+.window-buttons {
+    display: flex;
+    gap: 4px;
+}
+
+/* Base window button style */
+.window-buttons span {
+    width: 18px;
+    height: 18px;
+    background: #dcdcdc;
+    border: 2px solid #ffffff;
+    border-right-color: #7b7b7b;
+    border-bottom-color: #7b7b7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Button icons */
+.btn-close {
+    color: #b00000;
+}
+
+.btn-maximize {
+    color: #000;
+    font-size: 13px;
+}
+
+.btn-minimize {
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/* Video */
+.flag-video {
+    width: 90%;
+    margin: 25px 0;
+    border: 2px solid #7b7b7b;
+    border-left-color: #ffffff;
+    border-top-color: #ffffff;
+    box-shadow: inset 1px 1px 0 #7b7b7b, inset -1px -1px 0 #ffffff;
+}
+
+/* Controls */
+.controls {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-bottom: 30px;
+}
+
+.controls button {
+    padding: 10px 22px;
+    font-size: 26px;
+    cursor: pointer;
+    background: #dcdcdc;
+    color: #03a9f4;
+    border: 2px solid #ffffff;
+    border-right-color: #7b7b7b;
+    border-bottom-color: #7b7b7b;
+}
+
+.controls button:active {
+    border: 2px solid #7b7b7b;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+/* Hide audio element */
+#anthemAudio {
+    display: none;
+}
